@@ -9,8 +9,8 @@ android {
 
     defaultConfig {
         applicationId = "com.clone.master"
-        minSdk = 24
-        targetSdk = 34
+        minSdk = 21
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -23,6 +23,7 @@ android {
         }
         debug {
             isMinifyEnabled = false
+            isDebuggable = true
         }
     }
     
